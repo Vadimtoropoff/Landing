@@ -1,0 +1,37 @@
+body{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Baloo Thambi 2', cursive;
+}
+
+.jumbotron {
+  /* Choisis la hauteur ici */
+  position:relative;
+  height: 600px;
+
+  /* Tu lui donnes une image de background */
+  background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(Images/Fond2.jpeg);
+  background-size: cover; 
+  background-color: white;
+
+  /* Centre l'image et la met bien sur tous les écrans */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.bloccouleur {
+  z-index:999;
+  background-color:#138496;
+  padding: 60px;
+  margin-right: -200px;
+  color:white
+}
+
+h2{
+  padding-bottom: 20px;
+}
+
+.row{
+  margin-bottom: 100px;
+}
